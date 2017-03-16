@@ -58,11 +58,11 @@ class StepByStepLoader
     public function all(){
         StepByStepLocalization::getInstance();
         //$stepByStepExampleAction = StepByStepExampleAction::newInstance();
-        /*$stepByStepExampleFilter = StepByStepExampleFilter::newInstance();
+        $stepByStepExampleFilter = StepByStepExampleFilter::newInstance();
        $stepByStepExampleFilter->callMyFilter("Roman");
        $stepByStepExampleFilter->callMyFilterAdditionalParameter("Roman", "Softgroup", "Poltava");
        $stepByStepExampleAction = StepByStepExampleAction::newInstance();
        $stepByStepExampleAction->callMyAction();
-       $stepByStepExampleAction->callMyActionAdditionalParameter( 'test1', 'test2', 'test3' );*/
+       $stepByStepExampleAction->callMyActionAdditionalParameter( 'test1', 'test2', 'test3' );
     }
 }
