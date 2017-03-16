@@ -17,6 +17,7 @@ You are welcome to use this theme privately or commercially you want to help acc
 }
 html {
     height: 100%;
+	padding: 0;
     margin: 0 !important;
 }
 body {
